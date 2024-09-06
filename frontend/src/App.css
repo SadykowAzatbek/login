@@ -3,3 +3,45 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-styles {
+  min-width: 500px;
+  padding: 13px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-styles:focus {
+  outline: 2px solid #94a6a6;
+  border-color: transparent;
+  transition: 0.05s;
+}
+
+.input-styles:hover:not(:focus) {
+  border-color: #a1a1aa;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.btn-styles {
+  width: 8em;
+  margin: 0 auto;
+  background: #269789;
+  color: #fff;
+}
+
+.btn-styles:hover {
+  background: #0eb68e;
+  transition: background-color 0.5s;
+}
